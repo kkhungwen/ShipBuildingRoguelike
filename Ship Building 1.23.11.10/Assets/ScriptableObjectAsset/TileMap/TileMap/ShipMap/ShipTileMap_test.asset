@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7694188137135777316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e7e9766ff639948a88a1535086a0ff, type: 3}
+  m_Name: ShipPartType_Drill_Player
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 4ab5ec5a58c34274cb2c66c2cfcb7b9e, type: 2}
+  gridPositionUnityCordinate: {x: 0, y: 0}
+  orientation: 1
+  gridPositionGUI: {x: 0, y: 15}
+--- !u!114 &-3098489713965808924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e7e9766ff639948a88a1535086a0ff, type: 3}
+  m_Name: ShipPartType_RapidGun_Player
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 5bc17ecea06f30641b9f676dc6d21dd5, type: 2}
+  gridPositionUnityCordinate: {x: 1, y: 2}
+  orientation: 0
+  gridPositionGUI: {x: 1, y: 13}
+--- !u!114 &-1827223186096269411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e7e9766ff639948a88a1535086a0ff, type: 3}
+  m_Name: ShipPartType_PlasmaCannon_Player
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 8d5cd4bad568ec344a9d5c1ce1e14a50, type: 2}
+  gridPositionUnityCordinate: {x: 0, y: 1}
+  orientation: 0
+  gridPositionGUI: {x: 0, y: 14}
+--- !u!114 &-576355392395877309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e7e9766ff639948a88a1535086a0ff, type: 3}
+  m_Name: ShipPartType_Drill_Player
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 4ab5ec5a58c34274cb2c66c2cfcb7b9e, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 2}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 13}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0d79222468bdc45b79e51d126d691d, type: 3}
+  m_Name: ShipTileMap_test
+  m_EditorClassIdentifier: 
+  tileObjectList:
+  - {fileID: 5015211531786546333}
+  - {fileID: -1827223186096269411}
+  - {fileID: -576355392395877309}
+  - {fileID: 6314427698954912913}
+  - {fileID: -3098489713965808924}
+  - {fileID: 7341657426499639066}
+  - {fileID: 5225846372565203235}
+  - {fileID: -7694188137135777316}
+  tileObjectTypePalleteArray:
+  - {fileID: 11400000, guid: 647c2b5491d9c5a40913348c5576a69d, type: 2}
+  mapWidth: 16
+  mapHeight: 16
+--- !u!114 &5015211531786546333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e7e9766ff639948a88a1535086a0ff, type: 3}
+  m_Name: ShipTileObjectType_1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 5bc17ecea06f30641b9f676dc6d21dd5, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 1}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 14}
+--- !u!114 &5225846372565203235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e7e9766ff639948a88a1535086a0ff, type: 3}
+  m_Name: ShipPartType_Drill_Player
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 4ab5ec5a58c34274cb2c66c2cfcb7b9e, type: 2}
+  gridPositionUnityCordinate: {x: 0, y: 2}
+  orientation: 3
+  gridPositionGUI: {x: 0, y: 13}
+--- !u!114 &6314427698954912913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e7e9766ff639948a88a1535086a0ff, type: 3}
+  m_Name: ShipPartType_Drill_Player
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 4ab5ec5a58c34274cb2c66c2cfcb7b9e, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 0}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 15}
+--- !u!114 &7341657426499639066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e7e9766ff639948a88a1535086a0ff, type: 3}
+  m_Name: ShipPartType_RapidGun_Player
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 5bc17ecea06f30641b9f676dc6d21dd5, type: 2}
+  gridPositionUnityCordinate: {x: 1, y: 0}
+  orientation: 0
+  gridPositionGUI: {x: 1, y: 15}

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14904d07d9042794cb75a1c363aa8032, type: 3}
+  m_Name: BreakableBlockType_Stone2X2
+  m_EditorClassIdentifier: 
+  tileObjectTypeName: Stone4x4
+  isRotatable: 0
+  initialGridPositionList:
+  - {x: 0, y: 0}
+  - {x: 0, y: 1}
+  - {x: 1, y: 0}
+  - {x: 1, y: 1}
+  initialGridPositionArray:
+  - {x: 0, y: 0}
+  - {x: 0, y: 1}
+  - {x: 1, y: 0}
+  - {x: 1, y: 1}
+  initialCenterPointOffset: {x: 0.5, y: 0.5}
+  initialRotationPointOffset: {x: 1, y: 1}
+  initialSurroundingPositionList:
+  - {x: 1, y: -1}
+  - {x: 0, y: -1}
+  - {x: -1, y: -1}
+  - {x: -1, y: 0}
+  - {x: -1, y: 1}
+  - {x: -1, y: 2}
+  - {x: 0, y: 2}
+  - {x: 1, y: 2}
+  - {x: 2, y: 0}
+  - {x: 2, y: -1}
+  - {x: 2, y: 1}
+  - {x: 2, y: 2}
+  initialSurroundingPositionArray:
+  - {x: 1, y: -1}
+  - {x: 0, y: -1}
+  - {x: -1, y: -1}
+  - {x: -1, y: 0}
+  - {x: -1, y: 1}
+  - {x: -1, y: 2}
+  - {x: 0, y: 2}
+  - {x: 1, y: 2}
+  - {x: 2, y: 0}
+  - {x: 2, y: -1}
+  - {x: 2, y: 1}
+  - {x: 2, y: 2}
+  previewTexture: {fileID: 2800000, guid: ec41d2db86d2b544583feec0215d65f9, type: 3}
+  initialGridPositionListGUI:
+  - {x: 0, y: 0}
+  - {x: 0, y: -1}
+  - {x: 1, y: 0}
+  - {x: 1, y: -1}
+  initialCenterPointOffsetGUI: {x: 0.5, y: -0.5}
+  initialRotationPointOffsetGUI: {x: 1, y: -1}
+  blockWidth: 2
+  blockHeight: 2
+  prefab: {fileID: 7170438962290908516, guid: 69487e39aff777a4fb06c5964b0518f1, type: 3}
+  defaultSprite: {fileID: 21300000, guid: ec41d2db86d2b544583feec0215d65f9, type: 3}
+  isSpriteRuleTile: 0
+  spriteRuleTile: {fileID: 0}

@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9046b8953529b3147b36ab8bb6c55f7b, type: 3}
+  m_Name: ShipPartType_Drill_Player
+  m_EditorClassIdentifier: 
+  tileObjectTypeName: Drill
+  isRotatable: 1
+  initialGridPositionList:
+  - {x: 0, y: 0}
+  initialGridPositionArray:
+  - {x: 0, y: 0}
+  initialCenterPointOffset: {x: 0.5, y: 0.5}
+  initialRotationPointOffset: {x: 0.5, y: 0.5}
+  initialSurroundingPositionList:
+  - {x: 1, y: 0}
+  - {x: 1, y: -1}
+  - {x: 0, y: -1}
+  - {x: -1, y: -1}
+  - {x: -1, y: 0}
+  - {x: -1, y: 1}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  initialSurroundingPositionArray:
+  - {x: 1, y: 0}
+  - {x: 1, y: -1}
+  - {x: 0, y: -1}
+  - {x: -1, y: -1}
+  - {x: -1, y: 0}
+  - {x: -1, y: 1}
+  - {x: 0, y: 1}
+  - {x: 1, y: 1}
+  previewTexture: {fileID: 2800000, guid: f531dfd3be908074c92be4858d5c5ae9, type: 3}
+  initialGridPositionListGUI:
+  - {x: 0, y: 0}
+  initialCenterPointOffsetGUI: {x: 0.5, y: -0.5}
+  initialRotationPointOffsetGUI: {x: 0.5, y: -0.5}
+  prefab: {fileID: 5563684852822693458, guid: a52a1626305382142baff74d8213027e, type: 3}
+  iconSprite: {fileID: 21300000, guid: f531dfd3be908074c92be4858d5c5ae9, type: 3}
+  attributeDataList:
+  - attributeType: {fileID: 11400000, guid: 429f2dc025f28ab40b76e81117498e59, type: 2}
+    baseLevelValue: 5
+    maxLevelValue: 10
+    normalized_ValueCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - attributeType: {fileID: 11400000, guid: e2014a81c07641c488c0a44e507e4034, type: 2}
+    baseLevelValue: 0
+    maxLevelValue: 0
+    normalized_ValueCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - attributeType: {fileID: 11400000, guid: bb459590011c67a44801523ec965a3ea, type: 2}
+    baseLevelValue: 10
+    maxLevelValue: 50
+    normalized_ValueCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 50
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - attributeType: {fileID: 11400000, guid: bb6ea92fcda6c5b40aff38a7a1072ee1, type: 2}
+    baseLevelValue: 1
+    maxLevelValue: 5
+    normalized_ValueCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

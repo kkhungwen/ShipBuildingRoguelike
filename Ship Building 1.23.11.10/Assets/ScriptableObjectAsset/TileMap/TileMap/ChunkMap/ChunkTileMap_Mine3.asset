@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8440425520497655147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619655cd05455f5458183cc8744dd26f, type: 3}
+  m_Name: ClusterType_RockCluster_4x4
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: e3151cf1a3fde8c4faf3804e66e25e92, type: 2}
+  gridPositionUnityCordinate: {x: 47, y: 54}
+  orientation: 0
+  gridPositionGUI: {x: 47, y: 9}
+--- !u!114 &-6419368822161908000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619655cd05455f5458183cc8744dd26f, type: 3}
+  m_Name: ClusterType_RockCluster_4x4
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: e3151cf1a3fde8c4faf3804e66e25e92, type: 2}
+  gridPositionUnityCordinate: {x: 7, y: 54}
+  orientation: 0
+  gridPositionGUI: {x: 7, y: 9}
+--- !u!114 &-5692643694464971569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619655cd05455f5458183cc8744dd26f, type: 3}
+  m_Name: ClusterType_RockCluster_16x16
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: a7dc313af8a46f7459ab4f51574c74e2, type: 2}
+  gridPositionUnityCordinate: {x: 21, y: 28}
+  orientation: 0
+  gridPositionGUI: {x: 21, y: 35}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e654c2f8472e914fac3531e51f981d6, type: 3}
+  m_Name: ChunkTileMap_Mine3
+  m_EditorClassIdentifier: 
+  tileObjectList:
+  - {fileID: -5692643694464971569}
+  - {fileID: 3490104386699747262}
+  - {fileID: -8440425520497655147}
+  - {fileID: 1653864555765947286}
+  - {fileID: -6419368822161908000}
+  - {fileID: 1870155290785346641}
+  - {fileID: 163916806769539701}
+  tileObjectTypePalleteArray:
+  - {fileID: 11400000, guid: 9da591b76fea0264b93ad4a5a1e93f7c, type: 2}
+  chunkType: {fileID: 11400000, guid: fb914a6dc1d03e94487d3a6f5d34ab28, type: 2}
+--- !u!114 &163916806769539701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619655cd05455f5458183cc8744dd26f, type: 3}
+  m_Name: ClusterType_RockCluster_8x8
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: c5a7d855b27be564792740805ba96054, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 40}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 23}
+--- !u!114 &1653864555765947286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619655cd05455f5458183cc8744dd26f, type: 3}
+  m_Name: ClusterType_RockCluster_4x4
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: e3151cf1a3fde8c4faf3804e66e25e92, type: 2}
+  gridPositionUnityCordinate: {x: 17, y: 12}
+  orientation: 0
+  gridPositionGUI: {x: 17, y: 51}
+--- !u!114 &1870155290785346641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619655cd05455f5458183cc8744dd26f, type: 3}
+  m_Name: ClusterType_RockCluster_8x8
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: c5a7d855b27be564792740805ba96054, type: 2}
+  gridPositionUnityCordinate: {x: 44, y: 4}
+  orientation: 0
+  gridPositionGUI: {x: 44, y: 59}
+--- !u!114 &3490104386699747262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619655cd05455f5458183cc8744dd26f, type: 3}
+  m_Name: ClusterType_RockCluster_4x4
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: e3151cf1a3fde8c4faf3804e66e25e92, type: 2}
+  gridPositionUnityCordinate: {x: 55, y: 13}
+  orientation: 0
+  gridPositionGUI: {x: 55, y: 50}

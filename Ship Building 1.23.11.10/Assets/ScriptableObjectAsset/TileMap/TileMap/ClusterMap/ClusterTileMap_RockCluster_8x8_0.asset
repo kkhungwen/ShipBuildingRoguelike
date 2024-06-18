@@ -1,0 +1,647 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9015945102452898754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 5, y: 6}
+  orientation: 0
+  gridPositionGUI: {x: 5, y: 1}
+--- !u!114 &-8828301192253843227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 5, y: 1}
+  orientation: 0
+  gridPositionGUI: {x: 5, y: 6}
+--- !u!114 &-8183528045072783321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Gem1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: b1a2c39b88bb8d44684f567726916277, type: 2}
+  gridPositionUnityCordinate: {x: 4, y: 5}
+  orientation: 0
+  gridPositionGUI: {x: 4, y: 2}
+--- !u!114 &-8109799851562812714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 7}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 0}
+--- !u!114 &-8009199892608897288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 7, y: 2}
+  orientation: 0
+  gridPositionGUI: {x: 7, y: 5}
+--- !u!114 &-7794681297219818269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 1, y: 3}
+  orientation: 0
+  gridPositionGUI: {x: 1, y: 4}
+--- !u!114 &-7386468752565578268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 7, y: 1}
+  orientation: 0
+  gridPositionGUI: {x: 7, y: 6}
+--- !u!114 &-7112657114987569765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 6}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 1}
+--- !u!114 &-5909686593191919961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 4}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 3}
+--- !u!114 &-5643719319262525559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 1, y: 4}
+  orientation: 0
+  gridPositionGUI: {x: 1, y: 3}
+--- !u!114 &-5189597569357355434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 3, y: 5}
+  orientation: 0
+  gridPositionGUI: {x: 3, y: 2}
+--- !u!114 &-4235786113524029625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 5, y: 3}
+  orientation: 0
+  gridPositionGUI: {x: 5, y: 4}
+--- !u!114 &-3403318939256221598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Stone2X2
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: e789b50987dd91c44acfb96c04c50f82, type: 2}
+  gridPositionUnityCordinate: {x: 3, y: 3}
+  orientation: 0
+  gridPositionGUI: {x: 3, y: 4}
+--- !u!114 &-2805735612151765977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 3, y: 2}
+  orientation: 0
+  gridPositionGUI: {x: 3, y: 5}
+--- !u!114 &-1922914627876340967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 7, y: 4}
+  orientation: 0
+  gridPositionGUI: {x: 7, y: 3}
+--- !u!114 &-1730604151420853893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 6, y: 3}
+  orientation: 0
+  gridPositionGUI: {x: 6, y: 4}
+--- !u!114 &-1691794092480168128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 6, y: 2}
+  orientation: 0
+  gridPositionGUI: {x: 6, y: 5}
+--- !u!114 &-1468158904754458638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 3, y: 6}
+  orientation: 0
+  gridPositionGUI: {x: 3, y: 1}
+--- !u!114 &-1358943732696020186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 6, y: 4}
+  orientation: 0
+  gridPositionGUI: {x: 6, y: 3}
+--- !u!114 &-1298837578920103629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 6, y: 1}
+  orientation: 0
+  gridPositionGUI: {x: 6, y: 6}
+--- !u!114 &-660050026663205830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 6, y: 6}
+  orientation: 0
+  gridPositionGUI: {x: 6, y: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1e1efa310f05d42a6db51766eb6309, type: 3}
+  m_Name: ClusterTileMap_RockCluster_8x8_0
+  m_EditorClassIdentifier: 
+  tileObjectList:
+  - {fileID: -660050026663205830}
+  - {fileID: -9015945102452898754}
+  - {fileID: 645092715770735030}
+  - {fileID: 6668347265195595845}
+  - {fileID: 4145754533362068081}
+  - {fileID: -1468158904754458638}
+  - {fileID: -7112657114987569765}
+  - {fileID: 1297055709931440961}
+  - {fileID: -5189597569357355434}
+  - {fileID: -3403318939256221598}
+  - {fileID: 2562557198913472277}
+  - {fileID: -8183528045072783321}
+  - {fileID: 5071549106685819174}
+  - {fileID: 6593856586880449370}
+  - {fileID: -1358943732696020186}
+  - {fileID: -1730604151420853893}
+  - {fileID: -4235786113524029625}
+  - {fileID: 7509649309285981169}
+  - {fileID: 6612530419517259197}
+  - {fileID: 7987036478231869705}
+  - {fileID: -8109799851562812714}
+  - {fileID: 5978878327513457981}
+  - {fileID: 307554210391805679}
+  - {fileID: -5643719319262525559}
+  - {fileID: -5909686593191919961}
+  - {fileID: 1158092081826857956}
+  - {fileID: -7794681297219818269}
+  - {fileID: 2265537024900040974}
+  - {fileID: -2805735612151765977}
+  - {fileID: 4031239252988190176}
+  - {fileID: -1691794092480168128}
+  - {fileID: -1922914627876340967}
+  - {fileID: 4757040887748118493}
+  - {fileID: -8009199892608897288}
+  - {fileID: -7386468752565578268}
+  - {fileID: -1298837578920103629}
+  - {fileID: -8828301192253843227}
+  tileObjectTypePalleteArray:
+  - {fileID: 11400000, guid: b72131ca56fa1fa468e6378abd5d9003, type: 2}
+  clusterType: {fileID: 11400000, guid: c5a7d855b27be564792740805ba96054, type: 2}
+--- !u!114 &307554210391805679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 1, y: 5}
+  orientation: 0
+  gridPositionGUI: {x: 1, y: 2}
+--- !u!114 &645092715770735030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 4, y: 6}
+  orientation: 0
+  gridPositionGUI: {x: 4, y: 1}
+--- !u!114 &1158092081826857956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 3}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 4}
+--- !u!114 &1297055709931440961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 5}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 2}
+--- !u!114 &2265537024900040974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 2, y: 2}
+  orientation: 0
+  gridPositionGUI: {x: 2, y: 5}
+--- !u!114 &2562557198913472277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Stone1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 6de603b89efaa694f9f2b9a119fc32e6, type: 2}
+  gridPositionUnityCordinate: {x: 5, y: 4}
+  orientation: 0
+  gridPositionGUI: {x: 5, y: 3}
+--- !u!114 &4031239252988190176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 1, y: 2}
+  orientation: 0
+  gridPositionGUI: {x: 1, y: 5}
+--- !u!114 &4145754533362068081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 4, y: 7}
+  orientation: 0
+  gridPositionGUI: {x: 4, y: 0}
+--- !u!114 &4757040887748118493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 7, y: 3}
+  orientation: 0
+  gridPositionGUI: {x: 7, y: 4}
+--- !u!114 &5071549106685819174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Dirt1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: fc1bc5756c5500d40a10b723ea45764b, type: 2}
+  gridPositionUnityCordinate: {x: 5, y: 5}
+  orientation: 0
+  gridPositionGUI: {x: 5, y: 2}
+--- !u!114 &5978878327513457981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 1, y: 6}
+  orientation: 0
+  gridPositionGUI: {x: 1, y: 1}
+--- !u!114 &6593856586880449370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Dirt1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: fc1bc5756c5500d40a10b723ea45764b, type: 2}
+  gridPositionUnityCordinate: {x: 6, y: 5}
+  orientation: 0
+  gridPositionGUI: {x: 6, y: 2}
+--- !u!114 &6612530419517259197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 4, y: 2}
+  orientation: 0
+  gridPositionGUI: {x: 4, y: 5}
+--- !u!114 &6668347265195595845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 5, y: 7}
+  orientation: 0
+  gridPositionGUI: {x: 5, y: 0}
+--- !u!114 &7509649309285981169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 5, y: 2}
+  orientation: 0
+  gridPositionGUI: {x: 5, y: 5}
+--- !u!114 &7987036478231869705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fd21ee172c9949bf3629750aff31a, type: 3}
+  m_Name: BreakableBlockType_Rock1x1
+  m_EditorClassIdentifier: 
+  tileObjectType: {fileID: 11400000, guid: 9bc091fc0ab66304dad43fdf66d6a93e, type: 2}
+  gridPositionUnityCordinate: {x: 3, y: 7}
+  orientation: 0
+  gridPositionGUI: {x: 3, y: 0}

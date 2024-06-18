@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e930d995fdc0fb4394d59b91b454bb2, type: 3}
+  m_Name: SpriteAnimationSO_RapidGun_FirableInitiate
+  m_EditorClassIdentifier: 
+  frameArray:
+  - {fileID: 1146716526, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  - {fileID: 254184537, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  - {fileID: 1417267402, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  - {fileID: -921710634, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  - {fileID: -1234549151, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  - {fileID: -1452164180, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  - {fileID: -1523958727, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  - {fileID: 413056752, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  - {fileID: 1558150432, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  - {fileID: 998486087, guid: 952ef967c8d5adc409abc2e2d0652d01, type: 3}
+  material: {fileID: 2100000, guid: 27f6c40fa2e0593439b94a385409f03d, type: 2}
+  secPerFrame: 0.04
+  isLoop: 0
